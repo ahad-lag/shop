@@ -16,7 +16,7 @@ const RegisterForm = withFormik<RegisterFormProps, RegisterFormValuesInterface>(
             confirm_password: ''
         }
     },
-    handleSubmit: (values) => {
+    handleSubmit: async (values) => {
         console.log(values);
     },
     validationSchema : registerFormSchima
