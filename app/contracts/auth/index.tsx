@@ -11,3 +11,19 @@ export interface LoginFormValuesInterface {
     email: string,
     password: string,
 }
+
+////////////////////////////////////////////////// sms
+
+export interface RegisterFormSmsValuesInterface {
+    name: string,
+    phone: string,
+}
+
+export interface LoginFormSmsValuesInterface {
+    phone: string,
+}
+
+export interface LoginVerifyFormSmsValuesInterface {
+    token: string,
+    code: string,
+}
